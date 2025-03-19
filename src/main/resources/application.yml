@@ -1,0 +1,10 @@
+spring:
+  application:
+    name:cosmos
+  cloud:
+    azure:
+      cosmos:
+        endpoint: ${COSMOS_ENDPOINT}
+        key: ${COSMOS_KEY}
+        database: ${COSMOS_DATABASE}
+        container: recommendations
